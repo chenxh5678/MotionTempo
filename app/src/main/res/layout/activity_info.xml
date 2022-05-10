@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_info"
+            android:gravity="center|start"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:onClick="onMain"
+            android:text="←" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="参考文献"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="[1]陈锡航.节奏引导训练对提高动作频率的训练效果研究[J].当代体育科技,2018,8(12):167-168.
+            \n[2]方京英,冯丹.论节拍器在钢琴教学中对节奏训练的作用[J].西南农业大学学报(社会科学版),2010,8(01):105-107.
+\n[3]郭元奇.运用音响助跑节奏模式进行跳远助跑训练的实验研究[J].北京体育学院学报,1991(03):55-64+95-96.
+\n[4]严蓓,王珂.青少年游泳运动员节奏训练的实验研究[J].武汉体育学院学报,2008(01):97-100.
+\n[5] Kerry O'Brien.Tempo Training:Swimming to the Beat of a Different Drummer[C].World Clinic Series,2009,41(0): 15." />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
